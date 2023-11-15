@@ -1,0 +1,34 @@
+{
+    "expo": {
+      "name": "MyExpoApp",
+      "slug": "my-expo-app",
+      "version": "1.0.0",
+      "sdkVersion": "42.0.0",
+      "platforms": ["ios", "android"],
+      "orientation": "portrait",
+      "icon": "./path/to/app-icon.png",
+      "splash": {
+        "image": "./path/to/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "bundleIdentifier": "com.myapp.myexpoapp",
+        "supportsTablet": true
+      },
+      "android": {
+        "package": "com.myapp.myexpoapp",
+        "adaptiveIcon": {
+          "foregroundImage": "./path/to/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        }
+      }
+    }
+  }
+  
